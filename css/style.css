@@ -1,0 +1,42 @@
+:root {
+
+    
+}
+body {
+    background-color: #E5E5E5;
+}
+a {
+    text-decoration: none;
+   
+}
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    }
+.icon {
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    color: #000;
+ }
+.logo {
+    color: #2196F3;
+}
+.nav {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #212121;
+}
+
+.nav a:hover,
+.nav a:focus{
+    color: #2196F3;
+}

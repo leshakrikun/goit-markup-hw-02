@@ -4,39 +4,106 @@
 }
 body {
     background-color: #E5E5E5;
+    color: #757575;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 a {
     text-decoration: none;
-   
 }
 ul {
     list-style-type: none;
     margin-left: 0;
     padding-left: 0;
     }
+    .nav-link:hover, .contacts:hover, 
+    .nav-link:focus, .contacts:focus{
+    color: #2196F3;
+}
 .icon {
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 1.2;
     color: #000;
- }
+}
+footer > .icon {
+    color: #fff;
+}
+footer {
+    background-color: #2F303A;
+}
+
 .logo {
     color: #2196F3;
 }
-.nav {
+.nav-link {
     font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    text-align: left;
     color: #212121;
 }
 
-.nav a:hover,
-.nav a:focus{
-    color: #2196F3;
+.contacts {
+    font-family: Roboto;
+    font-size: 14px;   font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+h1 {
+font-size: 44px;
+font-weight: 900;
+line-height: 1.36;
+letter-spacing: 0.06em;
+color: #fff;
+}
+.hero {
+    background-color: #2F303A;
+    text-transform: uppercase;
+}
+.button {
+    background-color: #2196F3;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color:  #FFF;
+    ;
+}
+.advantages {
+     font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.head-advantages {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-transform: uppercase;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.employee-name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.employee-job {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }

@@ -60,16 +60,15 @@ footer {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
-h1 {
+.hero {
+    background-color: var(--secondary-background-color);
+    text-transform: uppercase;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
     letter-spacing: 0.06em;
     color: var(--button-color);
-}
-.hero {
-    background-color: var(--secondary-background-color);
-    text-transform: uppercase;
+    text-align: center;
 }
 .button {
     background-color: var(--accent-color);

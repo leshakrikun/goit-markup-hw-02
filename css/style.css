@@ -70,6 +70,10 @@ footer {
     color: var(--button-color);
     text-align: center;
 }
+.title-hero {
+    font-size: 44px;
+    font-weight: 900;   
+}
 .button {
     background-color: var(--accent-color);
     font-size: 16px;
